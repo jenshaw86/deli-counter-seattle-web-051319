@@ -15,4 +15,5 @@ end
 
 def take_a_number(customer)
   count = 1
+  puts "Welcome #{customer}"
   
