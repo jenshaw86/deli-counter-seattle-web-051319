@@ -14,6 +14,5 @@ def line(queue)
 end
 
 def take_a_number(queue, customer)
-  count = 1
-  puts "Welcome #{customer}"
+  puts "Welcome #{customer}!"
   
