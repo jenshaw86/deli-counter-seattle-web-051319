@@ -22,7 +22,7 @@ def now_serving(queue)
   if queue.length < 0
     puts "There is nobody waiting to be served!"
   else
-    current_customer = queue.unshift
+    current_customer = queue.shift
     puts "Currently serving #{current_customer}"
   end
 end
