@@ -9,6 +9,6 @@ def line(queue)
       next_in_line = " #{count}. #{customer}"
       line_up.concat(next_in_line)
     end
-    line_up
+    puts line_up
   end
 end
