@@ -15,5 +15,5 @@ end
 
 def take_a_number(queue, customer)
   queue << customer
-  puts "Welcome #{customer}. You are number #{queue.length} in line."
+  puts "Welcome, #{customer}. You are number #{queue.length} in line."
 end
