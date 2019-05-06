@@ -19,4 +19,4 @@ def take_a_number(queue, customer)
 end
 
 def now_serving(queue)
-  queue
+  current_customer = queue.unshift
