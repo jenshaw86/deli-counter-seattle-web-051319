@@ -8,5 +8,7 @@ def line(queue)
       count += 1
       next_in_line = " #{count}. #{customer}"
       line_up.concat(next_in_line)
+    end
+    line_up
   end
 end
