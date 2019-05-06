@@ -24,3 +24,4 @@ def now_serving(queue)
   else
     current_customer = queue.unshift
     
+    
