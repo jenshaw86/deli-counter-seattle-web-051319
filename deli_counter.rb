@@ -13,7 +13,7 @@ def line(queue)
   end
 end
 
-def take_a_number(customer)
+def take_a_number(queue, customer)
   count = 1
   puts "Welcome #{customer}"
   
