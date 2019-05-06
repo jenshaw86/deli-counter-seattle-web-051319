@@ -2,6 +2,7 @@ def line(queue)
   if queue.length < 1
     puts "The line is currently empty."
   else
-    puts "The line is currently #{i}"
+    line_up = "The line is currently: "
+    queue
   end
 end
