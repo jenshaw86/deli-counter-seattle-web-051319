@@ -19,7 +19,7 @@ def take_a_number(queue, customer)
 end
 
 def now_serving(queue)
-  if queue.length < 0
+  if queue.length < 1
     puts "There is nobody waiting to be served!"
   else
     current_customer = queue.shift
