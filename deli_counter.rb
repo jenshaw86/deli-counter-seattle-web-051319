@@ -6,7 +6,7 @@ def line(queue)
     line_up = "The line is currently:"
     queue.each do |customer|
       count += 1
-      " #{count}. #{customer}"
+      next_in_line = " #{count}. #{customer}"
       
   end
 end
