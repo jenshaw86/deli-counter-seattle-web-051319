@@ -3,6 +3,7 @@ def line(queue)
     puts "The line is currently empty."
   else
     line_up = "The line is currently: "
-    queue
+    queue.each do |customer|
+      
   end
 end
