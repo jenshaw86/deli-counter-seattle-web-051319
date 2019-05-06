@@ -12,3 +12,6 @@ def line(queue)
     puts line_up
   end
 end
+
+def take_a_number
+  
